@@ -1,0 +1,154 @@
+
+body {
+    margin: 0;
+
+    background-color:   #292841;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    text-shadow: 0px 0px 2px
+    rgba(0, 0, 0, 0.15);
+
+
+
+
+    
+}
+
+h1{
+    font-size: 10px;
+    font-style: normal;
+    font-family: 'COCOGOOSE', sans-serif;                                                  
+    text-shadow: 4spx 4px 4px
+    rgba(0, 0, 0, 0.85);
+}
+h2{
+    font-family: 'COCOGOOSE';
+    
+
+                                                
+}
+h1, h2, h3, p, li, br{
+    
+    color: #EEEEEE;
+    margin: 20px;
+}
+
+
+hr {
+    
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #6F6DC0;
+    border-width: 8px;
+    height: 0px;
+    width: 2%;
+}
+
+img {
+    padding: 15px;
+    height: 400px;
+
+}
+p{
+    margin: 40px;
+}
+main{
+    background-color: #252438;
+    border-radius: 10px;
+}
+article{
+    background-color: #27263a;
+    margin: 20px;
+}
+ article li{
+    margin-left: 400px;
+}
+  iframe{
+      margin-left: 540px;
+  }
+
+
+/* ========================================================classe====================================================== */
+
+  .rectangleg{
+
+    border-style: solid;/*This changes everything*/
+    background-color: #40a45c;
+    border-radius: 5px;
+    width: 150px;
+    
+    border-width: 5px;
+    
+    border-color: #40a45c;
+    margin-top: -65px;
+    padding: 5px;   
+    height: 40px;
+
+    }
+    .rectangler{
+
+        border-style: solid;/*This changes everything*/
+        background-color: #ed4245
+        ;
+        border-radius: 5px;
+        width: 200px;
+        
+        border-width: 5px;
+        
+        border-color: #ed4245;
+        margin-top: -70px;
+        margin-left: 626px;
+        padding: 10px;   
+        height: 40px;
+    
+    }
+    .rectangler:hover{
+        background-color: #6F6DC0;
+        border-color: #6F6DC0;
+    }
+    .rectangleg:hover{
+        background-color: #6F6DC0;
+        border-color: #6F6DC0;
+    }
+    
+    .serverBuuf{
+        position:relative; left: 90px;
+            font-size: 100px;
+            font-style: normal;
+            margin-top: 60px;
+            color: #EEEEEE;
+            font-family: 'COCOGOOSE', sans-serif;                                                  
+            text-shadow: 5px 5px 4px
+          rgba(0, 0, 0, 0.85);
+    }
+    .subtitle{
+        position:relative; left: 370px; top: -160px;
+        margin-top: 150px;
+            font-size: 28px;
+            font-style: normal;
+            color: #EEEEEE;
+            font-family: 'COCOGOOSE', sans-serif;                                                  
+           text-shadow: 4px 4px 4px
+          rgba(0, 0, 0, 0.85);
+    }
+    .fixado{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        overflow-x: hidden;
+        border: 1px solid #091b4d;
+
+    }
+
+    /* ========================================================ID====================================================== */
+    #mainborder{
+        margin-left: 20px;
+        text-shadow: 4px 4px 4px
+        rgba(0, 0, 0, 0.15);;
+    }
+    #login{
+        margin-left: 95%;
+        width: 40px;
+        height: auto;
+    }
